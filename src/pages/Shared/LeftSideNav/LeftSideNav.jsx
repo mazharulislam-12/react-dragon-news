@@ -18,6 +18,8 @@ const LeftSideNav = () => {
                 categories.map(category => <Link to={`/category/${category.id}`} className="block mb-4 ml-4 text-xl font-semibold" key={category.id}>{category.name}</Link> )
              }
         </div>
+
+        
     );
 };
 
